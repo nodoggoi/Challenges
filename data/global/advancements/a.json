@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Survival Challenges",
+        "description": "Escape the End or the Nether with nothing at all :D",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'nodoggie'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
